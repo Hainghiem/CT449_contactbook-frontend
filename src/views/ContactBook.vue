@@ -44,6 +44,17 @@
             <i class="fas fa-edit"></i> Hiệu chỉnh</span
           >
         </router-link>
+
+        <router-link
+          :to="{
+            name: 'contact.add',
+            params: { id: activeContact._id },
+          }"
+        >
+          <span class="btn btn-sm btn-success">
+            <i class="fas fa-edit"></i> Thêm</span
+          >
+        </router-link>
       </div>
     </div>
   </div>
